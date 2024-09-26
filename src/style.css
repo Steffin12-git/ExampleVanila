@@ -1,0 +1,38 @@
+.todo_app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+.todoContents{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+#addTodoBtn{
+    background-color: aqua;
+    height: 40px;
+    width: 10%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#todoInput{
+    width: 40%;
+}
+
+.added_text{
+    list-style:  none;
+}
+.delete_btn{
+    background-color: red;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.todo_output{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
